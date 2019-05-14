@@ -3,7 +3,7 @@ i=0
 return_array = Array.new
   while i<array.length
   yield array[i]
-  return_array << array[i]
+  return_array << array[i].upcase
   i+=1
 end
 return_array
